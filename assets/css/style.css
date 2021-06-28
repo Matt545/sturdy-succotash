@@ -347,13 +347,15 @@
     }
   
     header nav ul {
-      margin-top: 20px;
+      margin-top: 50px;
       width: 100%;
       justify-content: center;
+      position: relative;
     }
   
     header nav ul li a {
       font-size: 20px;
+
   
     }
   
@@ -410,9 +412,7 @@
   }
   
   @media and (max-width: 575px) {
-    .hero-form button {
-      width: 100%;
-    }
+
   
     .section-title {
       width: 95%;
@@ -424,5 +424,9 @@
   
     .trainer {
       flex: 0 100%;
+    }
+
+    header nav {
+        margin: auto;
     }
   }
