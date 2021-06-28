@@ -265,22 +265,21 @@
   .trainer {
     margin: 20px;
     flex: 1;
-    background: var(--secondary-color);
+    background: rgba(0,0,0, 1)
     color: var(--primary-color);
-
+    box-shadow: 20px 20px 20px rgba(0,0,0, 0.5);
 
   }
   
   .trainer img {
     width: 100%;
     max-height: 1000px;
-    border: 10px solid var(--primary-color);
     object-fit: scale-down;
     z-index: 9998;
   }
   
   .trainer-bio {
-    border: var(--secondary-color) solid 20px;
+    /*border: var(--secondary-color) solid 20px;*/
     line-height: 1.3;
     text-align: center;
     padding: 20px;
@@ -289,13 +288,13 @@
   }
   
   .trainer-bio h3 {
-    font-size: 28px;
+    font-size: 48px;
     text-align: center;
   }
   
   .trainer-bio h4 {
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 38px;
     margin-bottom: 15px;
   }
   
